@@ -1,0 +1,65 @@
+[
+  {
+    "username": "Manjunatha Reddy",
+    "password": "pbkdf2:sha256:260000$PscK1GkxNicCRKtB$4f4a89fcb806fdba884d6251e24153530a869e839da1a814e8a30e6a0f69197c",
+    "email": "sagilimanjunathareddy@gmail.com",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 08:38:26"
+  },
+  {
+    "id": "26713280-7017-4ad4-895f-f72b1ad72b48",
+    "username": "Manjunath",
+    "password": "pbkdf2:sha256:260000$duZkiewrVAWOOcIY$0a7c291c40b019c3b857de44cf83c8a6e243d585676ea68399b91b62b1e7a6d6",
+    "email": "99220041344@klu.ac.in",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 10:07:59",
+    "last_login": null
+  },
+  {
+    "id": "df2bd5df-5b03-4770-8c75-e5da97ed92e1",
+    "username": "Manjunath123",
+    "password": "pbkdf2:sha256:260000$eONHeA7vnnmUXhha$11457ce4afe6f19269c670bcdd8fe533c0ed6a53ca8d773c5b4c916d103f72f3",
+    "email": "99220041324@klu.ac.in",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 10:08:25",
+    "last_login": null,
+    "otp": "pbkdf2:sha256:260000$paybDPSqBUs2LafC$d525f8c08b38d64d8256e57667407c7049f7bf759a422ece01aa3454aa4d7399",
+    "otp_expiry": 1750221819.745795
+  },
+  {
+    "id": "414f439d-396e-4449-8d89-5bb1fd9e5b05",
+    "username": "babu",
+    "password": "pbkdf2:sha256:260000$MxkabgDLNWKPgXG4$027e484719c8a1122ece989f4f3c0a7bbf91cd85a61f8772e6bed7716aef6773",
+    "email": "babu@gmail.com",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 10:15:35",
+    "last_login": null
+  },
+  {
+    "id": "97908dde-e08c-454e-b9c8-719700d0eb5c",
+    "username": "Babu",
+    "password": "pbkdf2:sha256:260000$qMX9toZtc1AQMDqx$998e22c85bae3dea477c40aedeccceee8dc8fbf24cb066fa6f014113dd4abb09",
+    "email": "babubabu@gmail.com",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 10:16:30",
+    "last_login": null,
+    "otp": "pbkdf2:sha256:260000$upNlmJpkIM0vRkFZ$324b75185879cf08e6d06bf3b6685d7886d7df79c040856e9ef3eb56047f2747",
+    "otp_expiry": 1750222338.840774
+  },
+  {
+    "id": "95c1e176-a940-4d2f-802c-f3cc5551c2a4",
+    "username": "Manju",
+    "password": "pbkdf2:sha256:260000$aK6byBXZtZySnMuY$371b891d72ea83cc908406bdf3b348cd69c541dd1650cc433244e954d6279367",
+    "email": "sagili@gmail.com",
+    "role": "user",
+    "devices": [],
+    "created_at": "2025-06-18 10:26:05",
+    "otp": "pbkdf2:sha256:260000$TOhkt2atWylz7Wh0$735e538e9cb8ee7b5c12c838bed696337eeb488c49732d499445c813f8f44478",
+    "otp_expiry": 1750223037.758598
+  }
+]

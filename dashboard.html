@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TrustGate Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="max-w-4xl mx-auto p-6">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex justify-between items-center mb-4">
+          <h1 class="text-2xl font-bold text-gray-800">👋 Hello, {{ user }}</h1>
+          <a href="{{ url_for('logout') }}"
+             class="py-2 px-4 bg-red-500 text-white rounded hover:bg-red-600">Logout</a>
+        </div>
+        <p class="text-gray-600 mb-4"><strong>Role:</strong> {{ role }}</p>
+        <p class="text-gray-600 mb-4"><strong>Location:</strong> {{ location }}</p>
+        <div id="map" class="h-96 rounded-lg overflow-hidden"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      const lat = {{ lat | tojson }};
+      const lon = {{ lon | tojson }};
+      const map = L.map('map', { zoomControl: false }).setView([lat, lon], 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+      L.marker([lat, lon]).addTo(map).bindPopup("You're here!").openPopup();
+    </script>
+  </body>
+</html>
